@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.App > ul {
+  text-align: left;
+}
+
+.App > h1 {
+  text-align: left;
+  padding-left: 20px;
+}

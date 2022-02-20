@@ -1,0 +1,44 @@
+/** @format */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.show-events {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form {
+  border: 1px solid gray;
+  padding: 30px;
+}
+
+.form-contents {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-contents label {
+  padding-right: 20px;
+}
+
+.display-submitted {
+  border: 1px solid gray;
+  padding: 30px;
+}
+
+.display-submitted div {
+  margin: 10px 0;
+}
+
+.display-submitted button {
+  margin: 10px 0;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            .el {
+                color: red
+            }
+        </style>
+    </head>
+    <body>
+        <div id = 'root'></div>
+        <script  src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
+        <script crossorigin src="https://unpkg.com/@babel/standalone@7.15.3/babel.min.js"></script>
+       <script type='text/babel'>
+         const rootElement = document.getElementById('root')
+         const element = React.createElement('h1', {className: 'className'}, 'Hello there')
+        // <h1 className = 'className'>Text </h1>
+        // createElement( tag, {properties/attributes}, children)
+        const element2 = React.createElement('ol', {className: 'className'}, 
+          React.createElement('li', {class: 'li-item'}, 'number 1'),
+          React.createElement('li', {class: 'li-item'}, 'number 1')
+        )
+        // ReactDOM.render(element, rootElement) // once comment this
+        // ReactDOM.render(element2, rootElement) // othertime comment this
+        // render(what, where)
+        ReactDOM.render(<h1>Hi</h1>, rootElement)
+       </script>
+    </body>
+</html>

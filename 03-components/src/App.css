@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.color-red {
+  color: red;
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}
