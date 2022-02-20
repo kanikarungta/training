@@ -9,7 +9,7 @@ __To Run the applications__
 Go to individual numeral folders {folders starting with numbers} and run `npm install` or if using yarn, `yarn install`.
 Post the command run `npm start` or `yarn start`.
 
-If you have any questions, please reach out to `kanikarungta96@gmail.com` and `njain@mdsol.com`.
+If you have any questions, please reach out to `kanikarungta96@gmail.com`.
 
 
 ___Happy Learning!___
